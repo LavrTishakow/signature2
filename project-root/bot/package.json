@@ -7,10 +7,11 @@
 		"start": "ts-node src/index.ts"
 	},
 	"dependencies": {
-		"grammy": "^1.0.0",
 		"dotenv": "^10.0.0",
-		"sqlite3": "^5.0.0",
-		"graphql-request": "^3.0.0"
+		"grammy": "^1.0.0",
+		"graphql-request": "^3.0.0",
+		"rimraf": "^6.0.1",
+		"sqlite3": "^5.0.0"
 	},
 	"devDependencies": {
 		"ts-node": "^10.0.0",
